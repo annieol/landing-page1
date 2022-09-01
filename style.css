@@ -90,5 +90,5 @@ body {
 .hero, .placeholder {
     max-width: 50%;
     min-width: 50%;
-    height: 250px;
+    min-height: 200px;
 }
