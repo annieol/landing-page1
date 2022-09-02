@@ -117,11 +117,17 @@ body {
     gap:25px;
 }
 
-.card, figcaption {
+.card {
     min-width: 150px;
     max-width: 150px;
     min-height: 150px;
     max-height: 150px;
+    text-align: center;
+}
+
+figcaption {
+    min-width: 150px;
+    max-width: 150px;
     text-align: center;
 }
 
