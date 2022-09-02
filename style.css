@@ -144,6 +144,9 @@ figcaption {
 
 .part-3 {
     background-color: #e5e7eB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
