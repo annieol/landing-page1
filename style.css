@@ -112,6 +112,7 @@ body {
 .cards {
     display: flex;
     justify-content: center;
+    gap:25px;
 }
 
 .card, figcaption {
@@ -119,6 +120,7 @@ body {
     max-width: 150px;
     min-height: 150px;
     max-height: 150px;
+    text-align: center;
 }
 
 .card {
@@ -127,8 +129,7 @@ body {
     border-style: solid;
 }
 
-figure {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+figcaption {
+    padding-top: 8px;
+    color: #1F2937;
 }
