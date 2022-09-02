@@ -152,17 +152,22 @@ figcaption {
     font-style: italic;
     font-weight: lighter;
     color: #1F2937;
-    margin: auto;
-    max-width: 800px;
-    padding: 100px 100px 0 100px;
 }
 
 .thor {
     font-size: 18px;
     text-align: center;
-    padding-bottom: 100px;
     font-weight: bolder;
     color: #1F2937;
+    margin-left: auto;
+}
+
+.thor-quote {
+    padding: 100px 100px 100px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    max-width: 900px;
 }
 
 .part-4 {
